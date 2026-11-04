@@ -126,7 +126,7 @@ export const drawNetwork = (graph) => {
         nodes.classed("author-hidden", node => node.affiliation !== d.affiliation);
     });
 
-    nodes.on("mouseleave", (event, d) => {
+    nodes.on("mouseleave", (e, d) => {
         links.classed("link-selected", false);
         nodes.classed("author-hover", false);
         nodes.classed("author-hidden", false);
