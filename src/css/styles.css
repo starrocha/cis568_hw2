@@ -1,0 +1,83 @@
+#tooltip {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    background: white;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    max-width: 250px;
+}
+
+.fallback-color {
+    fill: #A9A9A9
+}
+
+.button-container {
+    align-content: center;
+}
+
+.slider-container {
+    text-align: center;
+}
+
+.network-container {
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 1000px;
+    height: 1000px;
+}
+
+.ui-controls {
+    display: flex;
+    border: 2px solid gray;
+    margin: auto;
+    width: 1000px;
+}
+
+.ui-controls * {
+    margin: 10px;
+}
+
+.network-node {
+    fill-opacity: 0.9;
+    stroke: black;
+    stroke-opacity: 0.25;
+    stroke-width: 1px;
+}
+
+.network-link {
+    stroke: gray;
+    stroke-opacity: 0.25;
+    stroke-width: 1px;
+}
+
+.link-selected {
+    stroke-opacity: 1;
+}
+
+.author-hover {
+    stroke-opacity: 0.5;
+    stroke-width: 2px;
+}
+
+.author-hidden {
+    opacity: 0.2;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 12pt;
+}

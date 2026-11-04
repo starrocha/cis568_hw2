@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CIS 568 Major Assignment 2</title>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="./js/main.js" type="module"></script>
+</head>
+<body>
+
+<header>
+    <h1>CIS 568 Major Assignment 2</h1>
+<!--    <h2>Star Rocha</h2>-->
+    <p>Click and drag to pan, and use the scroll wheel to zoom.</p>
+</header>
+
+<div id="tooltip">
+    <p id="name"></p>
+    <p id="affiliation"></p>
+    <p id="country"></p>
+    <p id="last-publication"></p>
+</div>
+
+<div class="network-container">
+    <svg id="network-chart" width="1000" height="1000"></svg>
+</div>
+
+<div class="ui-controls">
+    <div class="button-container">
+        <button type="button" id="simulation-playback">Stop Simulation</button>
+    </div>
+
+    <div class="slider-container">
+        <label for="charge">Charge Force:</label>
+        <br/>
+        <input type="range" id="charge" min="-10" max="10" step="0.5" value="-2.5">
+        <br/>
+        <span id="charge-text"></span>
+    </div>
+
+    <div class="slider-container">
+        <label for="collide">Collide Force:</label>
+        <br/>
+        <input type="range" id="collide" min="0" max="10" step="0.5" value="3">
+        <br/>
+        <span id="collide-text">3</span>
+    </div>
+
+    <div class="slider-container">
+        <label for="link">Link Strength:</label>
+        <br/>
+        <input type="range" id="link" min="0" max="10" step="0.5" value="2.5">
+        <br/>
+        <span id="link-text"></span>
+    </div>
+</div>
+
+</body>
+</html>
