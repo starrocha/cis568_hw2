@@ -33,9 +33,11 @@
 
 .ui-controls {
     display: flex;
+    justify-content: space-around;
     border: 2px solid gray;
     margin: auto;
     width: 1000px;
+    gap: 10px;
 }
 
 .ui-controls * {
